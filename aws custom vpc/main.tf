@@ -1,16 +1,18 @@
+####### AUTHOR: KAMIL MANSOOR - SENIOR DEVOPS ENGINEER @ AUXIN SECURITIES  - kamilmansoor987@gmial.com   ####################
+
 #profile details
 provider "aws" {
-  profile = "485146087273_Auxin-DevOps"
-  region  = "us-east-1"
+  profile = "your_profile"
+  region  = "aws_region"
 }
 
 
 terraform {
   backend "s3" {
-    bucket = "remote-state-bucket-tf"
+    bucket = "your_bucket_name"
     key    = "remote-state-file-tf"
-    region = "us-east-1"
-    profile = "485146087273_Auxin-DevOps"
+    region = "aws_region"
+    profile = "your_profile"
   }
 }
 

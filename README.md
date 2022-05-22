@@ -18,6 +18,9 @@ STEP#4:
   
 terraform init => terraform plan => terraform apply
   
+SSh from public vm to private vm
+command link => https://www.youtube.com/watch?v=OwptfrdgzDA  
+  
   
 The end!  
   

@@ -1,5 +1,6 @@
 #Instructions to Remember while execution of aws vpc with ALB v#2
 
+#Application load  balancer requires 2 public subnets in two different availabity zones
 
 POINT#1:
 #the port for the ALB-SG ingress needs to be same as of ALB-LISTNER, like here we used port "50" for both ALB-SG ingress and ALB-LISTNER
@@ -10,6 +11,7 @@ POINT#2:
 
 
 #POINT#3:
+Our Private Ec2 is attached with ALB through ALB-target-group-attachment
 We run a jenkins container inside our private Ec2 machine on host port 8081
 docker run -d -p 8081:8080 --name container_name jenkins_image
 
@@ -17,5 +19,5 @@ docker run -d -p 8081:8080 --name container_name jenkins_image
 
 On browser when we write ALB_DNS:50
 http://my-application-lb-1682971174.us-east-1.elb.amazonaws.com:50
-It will take you to the jenkins service service runing on port 8081 in private EC2 machine
+It will take you to the jenkins service runing on port 8081 in private EC2 machine
 

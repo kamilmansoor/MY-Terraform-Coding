@@ -12,7 +12,7 @@ POINT#2:
 
 #POINT#3:
 Our Private Ec2 is attached with ALB through ALB-target-group-attachment
-We run a jenkins container inside our private Ec2 machine on host port 8081
+We run a jenkins container inside our private Ec2 machine on host port 8081  =>
 docker run -d -p 8081:8080 --name container_name jenkins_image
 
 ######################################################################################3

@@ -1,3 +1,6 @@
+#### Author: Kamil Mansoor - DevOps Engineer - Auxin Security | https://www.linkedin.com/in/kamil-mansoor-65ba1819b/ ######################
+
+
 #profile details
 provider "aws" {
   profile = "485146087273_Auxin-DevOps"

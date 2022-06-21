@@ -1,4 +1,4 @@
-AWS VPC WITH ALB HAVING 2 LISTENERS, 2 TARGET-GROUP AND 2 TARGET GROUP ATTACHMENT:
+AWS VPC WITH ALB HAVING 2 LISTENERS, 2 TARGET-GROUP AND 2 TARGET GROUPS ATTACHMENTS:
 ---------------------------------------------------------------------------------
  
 *In ALB-SG ingress we have allowed all protocols and opened all ports

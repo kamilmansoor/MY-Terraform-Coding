@@ -1,4 +1,4 @@
-#Instructions to Remember while execution of aws vpc with ALB v#2
+**#Instructions to Remember while execution of aws vpc with ALB v#2**
 
 #Application load  balancer requires 2 public subnets each in different availabity zones
 

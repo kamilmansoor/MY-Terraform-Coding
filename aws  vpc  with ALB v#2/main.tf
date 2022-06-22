@@ -56,10 +56,7 @@ module "pub_subnet_2" {
 
 
 
-## kamail bhai please make one more public subnet module for your load balancer 
-## add that public subnet to your load balancer 
-## run the code .
-
+## Load balancer requires two public subnets, each in different availability zone and we have attached those two public subnets with a single route table as we know multiple subnets can be associate with single route table but we need two seperate route table association 
 
 #module for Public route table that is connect with internet gateway
  module "public-route" {

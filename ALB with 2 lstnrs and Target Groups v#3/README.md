@@ -11,7 +11,7 @@ AWS VPC WITH ALB HAVING 2 LISTENERS, 2 TARGET-GROUP AND 2 TARGET GROUPS ATTACHME
 
 *To access jenkins service running on port host port 80 in private VM#1: ALB-DNS:80 at the browser
 
-*To access jenkins service running on port host port 50 in private VM#1: ABL-DNS:50 at the browser
+*To access jenkins service running on port host port 50 in private VM#2: ABL-DNS:50 at the browser
 
 
 
